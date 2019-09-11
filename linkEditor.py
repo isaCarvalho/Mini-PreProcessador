@@ -7,9 +7,6 @@ def lerArquivo(nomeArq):
 
 	return arq.read()
 
-def fecharArq(arq):
-	arq.close()
-
 def include(stri):
 	nomeInc = re.match(r'\#include\s*\<(.*)\>', stri)
 
