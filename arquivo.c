@@ -1,4 +1,5 @@
 #include <arquivo.h>
+#define N 10
 
 /* Funcao main() 
 * @param argc
@@ -7,6 +8,6 @@
 int main(int argc, char *argv[])
 {
 	// Funcao fat
-	int x = fat(2);
+	int x = fat(N);
 	return 0;
 }

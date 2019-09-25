@@ -10,6 +10,7 @@ int fat(int n)
 #endif
 
 
+
 /* Funcao main() 
 * @param argc
 * @param argv
@@ -17,6 +18,6 @@ int fat(int n)
 int main(int argc, char *argv[])
 {
 	// Funcao fat
-	int x = fat(2);
+	int x = fat(10);
 	return 0;
 }

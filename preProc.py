@@ -5,13 +5,13 @@ import re
 arq = open("novoArquivo.c", "r")
 stri = arq.read()
 
-
 def regexCharEsp(stri):
 	# Expressao regular que tira comentarios de linha
 	stri = re.sub(r'\/\/(.*)', "", stri)
 
 	# Expressao regular que tira todos os espacos, quebras de linha e tabulacoes
 	stri  = re.sub(r'\s|\n|\t', " ", stri)
+
 
 	# Expressao regular que tira comentarios de bloco
 	stri = re.sub(r'\/\*(.*)\*\/', "", stri)
